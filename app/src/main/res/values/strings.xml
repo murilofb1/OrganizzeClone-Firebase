@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">OrganizzeClone</string>
+
+    <!-- Text Sliders -->
+    <!-- Slider 1 -->
+    <string name="title_slider1">Organize suas contas de onde estiver</string>
+    <string name="description_slider1">Simples, fácil de usar e grátis</string>
+
+    <!-- Slider 2 -->
+    <string name="title_slider2">Saiba para onde está indo o seu dinheiro</string>
+    <string name="description_slider2">Categorizando seus lançamentos e vendo o destino de cada centavo</string>
+
+    <!-- Slider 3 -->
+    <string name="title_slider3">Nunca mais esqueça de pagar uma conta</string>
+    <string name="description_slider3">Receba alertas quando quiser</string>
+
+    <!-- Slider 4 -->
+    <string name="title_slider4">Tudo organizado no celular ou computador</string>
+    <string name="description_slider4">Use no seu smartphone e acessando o Organizze pelo site</string>
+
+    <!-- Slider 5 (Tela de login / Cadastro) -->
+    <string name="title_sliderCadastro">Crie sua conta grátis</string>
+    <string name="description_sliderCadastro">Junte-se a mais de meio milão de pessoas e comece já!</string>
+    <string name="button_cadastrar">Cadastrar-se</string>
+    <string name="button_cadastrado">Já tenho Conta</string>
+
+    <!-- Tela de Login -->
+    <string name="login_title">Login</string>
+
+    <!-- Tela de Cadastro -->
+    <string name="cadastro_title">Insira suas informações abaixo</string>
+
+    <!-- Tela Principal -->
+    <string name="fab_despesas_label">Despesa</string>
+    <string name="fab_receitas_label">Receita</string>
+    <string name="txt_saldoGeral">saldo geral</string>
+    <string name="msg_carregando">Carregando dados...</string>
+    <string name="menu_item_sair">Sair</string>
+</resources>
