@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".slider.SliderAct"
+            android:name=".CLONED.SliderAct"
             android:theme="@style/Theme.Intro">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,15 +27,15 @@
             android:name=".activities.MainScreenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".authentication.LoginActivity"
+            android:name=".JA_FOI.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".authentication.CadastroActivity"
+            android:name=".JA_FOI.CadastroActivity"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".slider.SliderActivity"
+            android:name=".JA_FOI.SliderActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Intro">
 

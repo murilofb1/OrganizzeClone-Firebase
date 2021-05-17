@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.authentication;
+package com.murilofb.organizzeclone.JA_FOI;
 
 import androidx.appcompat.app.AppCompatActivity;
 

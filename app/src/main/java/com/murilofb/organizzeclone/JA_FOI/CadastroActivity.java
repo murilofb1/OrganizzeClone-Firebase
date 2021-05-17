@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.authentication;
+package com.murilofb.organizzeclone.JA_FOI;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,7 +9,6 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
-import com.murilofb.organizzeclone.models.Usuario;
 import com.murilofb.organizzeclone.R;
 
 public class CadastroActivity extends AppCompatActivity {
@@ -41,13 +40,13 @@ public class CadastroActivity extends AppCompatActivity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cadastro);
+        setContentView(R.layout.activity_signup);
         tst = new Toast(getApplicationContext());
-        edtNome = findViewById(R.id.edt_cadastro_nome);
-        edtEmail = findViewById(R.id.edt_cadastro_email);
-        edtSenha1 = findViewById(R.id.edt_cadastro_senha1);
-        edtSenha2 = findViewById(R.id.edt_cadastro_senha2);
-        btnCadastrar = findViewById(R.id.btn_cadastro_confirmar);
+        edtNome = findViewById(R.id.edtSignUpName);
+        edtEmail = findViewById(R.id.edtSignUpEmail);
+        edtSenha1 = findViewById(R.id.edtSignUpPsswd);
+        edtSenha2 = findViewById(R.id.edtSignUpPsswd2);
+        btnCadastrar = findViewById(R.id.btnConfirmSignUp);
 
 
         btnCadastrar.setOnClickListener(new View.OnClickListener() {

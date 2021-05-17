@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.models.Usuario;
+import com.murilofb.organizzeclone.JA_FOI.Usuario;
 
 public class FireBaseHelper {
     private static FirebaseAuth auth;

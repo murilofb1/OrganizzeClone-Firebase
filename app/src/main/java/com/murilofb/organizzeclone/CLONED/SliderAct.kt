@@ -1,12 +1,14 @@
-package com.murilofb.organizzeclone.slider
+package com.murilofb.organizzeclone.CLONED
 
+import android.content.Intent
 import android.os.Bundle
-import androidx.navigation.NavController
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide
 import com.murilofb.organizzeclone.Fragments.SignInUpFragment
 import com.murilofb.organizzeclone.R
+import com.murilofb.organizzeclone.activities.MainScreenAct
+import com.murilofb.organizzeclone.helpers.FirebaseH
 
 class SliderAct : IntroActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +47,6 @@ class SliderAct : IntroActivity() {
                 .build()
         )
 
-
         addSlide(
             FragmentSlide.Builder()
                 .background(R.color.slider_backgroud)
@@ -55,11 +56,16 @@ class SliderAct : IntroActivity() {
         )
     }
 
+    override fun onStart() {
+        super.onStart()
+        if (FirebaseH.isSomeoneLogged()) {
+            startActivity(Intent(this, MainScreenAct::class.java))
+            finish()
+        }
+    }
 
     override fun onBackPressed() {
         super.onBackPressed()
         finish()
     }
-
-
 }

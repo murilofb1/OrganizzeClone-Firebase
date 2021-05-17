@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".authentication.CadastroActivity">
+    tools:context=".JA_FOI.CadastroActivity">
 
     <TextView
         android:id="@+id/text_title_cadastro"
@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="40dp"
-        app:layout_constraintBottom_toTopOf="@id/btn_cadastro_confirmar"
+        app:layout_constraintBottom_toTopOf="@id/btnConfirmSignUp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/text_title_cadastro">
@@ -39,7 +39,7 @@
 
 
         <EditText
-            android:id="@+id/edt_cadastro_nome"
+            android:id="@+id/edtSignUpName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:scrollHorizontally="true"
@@ -52,7 +52,7 @@
             android:text="E-Mail" />
 
         <EditText
-            android:id="@+id/edt_cadastro_email"
+            android:id="@+id/edtSignUpEmail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textEmailAddress" />
@@ -63,7 +63,7 @@
             android:text="Senha" />
 
         <EditText
-            android:id="@+id/edt_cadastro_senha1"
+            android:id="@+id/edtSignUpPsswd"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
@@ -74,7 +74,7 @@
             android:text="Repita sua senha" />
 
         <EditText
-            android:id="@+id/edt_cadastro_senha2"
+            android:id="@+id/edtSignUpPsswd2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="textPassword" />
@@ -82,7 +82,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btn_cadastro_confirmar"
+        android:id="@+id/btnConfirmSignUp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

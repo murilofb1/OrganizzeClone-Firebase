@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.slider;
+package com.murilofb.organizzeclone.JA_FOI;
 
 import android.os.Bundle;
 
@@ -44,7 +44,6 @@ public class SliderActivity extends IntroActivity {
                 .fragment(R.layout.intro_4)
                 .build());
 
-
         addSlide(new FragmentSlide.Builder()
                 .background(R.color.slider_backgroud)
                 .fragment(new SignInUpFragment())
@@ -57,14 +56,10 @@ public class SliderActivity extends IntroActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
         if (FireBaseHelper.getFirebaseAuth().getCurrentUser() != null) {
             finish();
             MainScreenActivity.openActivity(SliderActivity.this);
-
         }
-
-
     }
 
     @Override
@@ -72,6 +67,4 @@ public class SliderActivity extends IntroActivity {
         super.onBackPressed();
         finish();
     }
-
-
 }

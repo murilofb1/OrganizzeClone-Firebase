@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.models;
+package com.murilofb.organizzeclone.JA_FOI;
 
 public class Usuario {
     private String nomeCompleto;

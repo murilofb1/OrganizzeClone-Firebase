@@ -10,8 +10,8 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-import com.murilofb.organizzeclone.authentication.CadastroActivity;
-import com.murilofb.organizzeclone.authentication.LoginActivity;
+import com.murilofb.organizzeclone.JA_FOI.CadastroActivity;
+import com.murilofb.organizzeclone.JA_FOI.LoginActivity;
 import com.murilofb.organizzeclone.R;
 
 

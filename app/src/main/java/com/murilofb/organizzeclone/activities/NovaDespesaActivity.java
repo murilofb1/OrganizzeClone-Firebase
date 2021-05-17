@@ -19,7 +19,7 @@ import com.murilofb.organizzeclone.helpers.DateCustom;
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.helpers.MaskFormats;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.models.Usuario;
+import com.murilofb.organizzeclone.JA_FOI.Usuario;
 import com.murilofb.organizzeclone.R;
 
 

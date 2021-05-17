@@ -26,7 +26,7 @@ import com.murilofb.organizzeclone.adapters.AdapterMovimentacao;
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.helpers.NumberFormatHelper;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.models.Usuario;
+import com.murilofb.organizzeclone.JA_FOI.Usuario;
 import com.murilofb.organizzeclone.R;
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
