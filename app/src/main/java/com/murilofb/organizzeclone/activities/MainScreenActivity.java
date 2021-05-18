@@ -26,7 +26,6 @@ import com.murilofb.organizzeclone.adapters.AdapterMovimentacao;
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.helpers.NumberFormatHelper;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.JA_FOI.Usuario;
 import com.murilofb.organizzeclone.R;
 import com.prolificinteractive.materialcalendarview.CalendarDay;
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView;
@@ -54,7 +53,7 @@ public class MainScreenActivity extends AppCompatActivity {
     private String mesAno;
     private List<Movimentacao> movList;
     private AdapterMovimentacao adapterMovimentacao;
-    private Usuario currentUser;
+    private Movimentacao.Usuario currentUser;
     //Listeners
     // Click
     private View.OnClickListener fabClick = new View.OnClickListener() {
@@ -135,7 +134,7 @@ public class MainScreenActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 ///////
 
-                currentUser = snapshot.getValue(Usuario.class);
+                currentUser = snapshot.getValue(Movimentacao.Usuario.class);
                 double receitas = currentUser.getReceitaTotal();
                 double despesas = currentUser.getDespesaTotal();
                 saldoAtual = receitas - despesas;

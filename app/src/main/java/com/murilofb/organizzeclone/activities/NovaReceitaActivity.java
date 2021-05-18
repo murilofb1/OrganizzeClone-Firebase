@@ -19,7 +19,6 @@ import com.murilofb.organizzeclone.helpers.DateCustom;
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.helpers.MaskFormats;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.JA_FOI.Usuario;
 import com.murilofb.organizzeclone.R;
 
 public class NovaReceitaActivity extends AppCompatActivity {
@@ -92,7 +91,7 @@ public class NovaReceitaActivity extends AppCompatActivity {
         userReference.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                Usuario usuario = snapshot.getValue(Usuario.class);
+                Movimentacao.Usuario usuario = snapshot.getValue(Movimentacao.Usuario.class);
                 receitaTotal = usuario.getReceitaTotal();
             }
 

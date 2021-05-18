@@ -16,7 +16,6 @@ import com.google.firebase.auth.FirebaseAuthWeakPasswordException;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.murilofb.organizzeclone.models.Movimentacao;
-import com.murilofb.organizzeclone.JA_FOI.Usuario;
 
 public class FireBaseHelper {
     private static FirebaseAuth auth;
@@ -79,7 +78,7 @@ public class FireBaseHelper {
         getCurrentUserReference().child(CHILD_DESPESA).setValue(valor);
     }
 
-    public static void cadastrarUsuario(final Activity activity, final Usuario usuario) {
+    public static void cadastrarUsuario(final Activity activity, final Movimentacao.Usuario usuario) {
         final Toast tst = Toast.makeText(activity, "", Toast.LENGTH_SHORT);
 
         getFirebaseAuth().createUserWithEmailAndPassword(usuario.getEmail(), usuario.getSenha())

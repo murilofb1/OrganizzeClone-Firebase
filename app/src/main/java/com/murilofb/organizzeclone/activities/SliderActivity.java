@@ -1,11 +1,10 @@
-package com.murilofb.organizzeclone.JA_FOI;
+package com.murilofb.organizzeclone.activities;
 
 import android.os.Bundle;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
 import com.murilofb.organizzeclone.Fragments.SignInUpFragment;
-import com.murilofb.organizzeclone.activities.MainScreenActivity;
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.R;
 

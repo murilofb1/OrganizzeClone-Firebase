@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.JA_FOI;
+package com.murilofb.organizzeclone.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.murilofb.organizzeclone.helpers.FireBaseHelper;
 import com.murilofb.organizzeclone.R;
+import com.murilofb.organizzeclone.models.Movimentacao;
 
 public class CadastroActivity extends AppCompatActivity {
 
@@ -57,7 +58,7 @@ public class CadastroActivity extends AppCompatActivity {
 
                 } else {
 
-                    Usuario usuario = new Usuario(strNome, strEmail, strSenha1);
+                    Movimentacao.Usuario usuario = new Movimentacao.Usuario(strNome, strEmail, strSenha1);
                     FireBaseHelper.cadastrarUsuario(CadastroActivity.this, usuario);
                 }
             }

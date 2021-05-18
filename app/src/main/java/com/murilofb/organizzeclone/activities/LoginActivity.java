@@ -1,4 +1,4 @@
-package com.murilofb.organizzeclone.JA_FOI;
+package com.murilofb.organizzeclone.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 

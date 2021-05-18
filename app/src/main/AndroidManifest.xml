@@ -12,10 +12,7 @@
         <activity
             android:name=".CLONED.SliderAct"
             android:theme="@style/Theme.Intro">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
         <activity
             android:name=".activities.NovaDespesaActivity"
@@ -27,18 +24,21 @@
             android:name=".activities.MainScreenActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".JA_FOI.LoginActivity"
+            android:name=".activities.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".JA_FOI.CadastroActivity"
+            android:name=".activities.CadastroActivity"
             android:screenOrientation="portrait">
 
         </activity>
         <activity
-            android:name=".JA_FOI.SliderActivity"
+            android:name=".activities.SliderActivity"
             android:screenOrientation="portrait"
             android:theme="@style/Theme.Intro">
-
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 
